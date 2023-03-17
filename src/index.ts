@@ -145,7 +145,7 @@ app.get("/", async (req, res) => {
   res.json(posts);
 });
 
-const PORT = 3001;
+const PORT = 3000;
 app.listen(PORT, () =>
   console.log(`
 🚀 Server ready at: http://localhost:${PORT}
